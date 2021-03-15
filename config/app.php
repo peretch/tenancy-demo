@@ -161,6 +161,10 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
+        // Hyn multi tenancy.
+        Hyn\Tenancy\Providers\TenancyProvider::class,
+        // Hyn multi tenancy webserver integration.
+        Hyn\Tenancy\Providers\WebserverProvider::class,
 
         /*
          * Package Service Providers...
